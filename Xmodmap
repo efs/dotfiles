@@ -1,0 +1,3 @@
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+keysym XF86WakeUp = Control_L
