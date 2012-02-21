@@ -49,6 +49,7 @@ set noswapfile
 
 "Persistent undo
 set undofile
+set undodir=$HOME/.vim/undo
 
 set spell
 
