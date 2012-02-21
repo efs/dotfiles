@@ -76,6 +76,7 @@ match ExtraWhitespace /\s\+$/
 map <Leader>w :%s/\s\+$<CR>
 
 map <F2> :NERDTreeToggle<CR>
+map <F3> :TlistToggle<CR>
 
 " Save and make
 map <F7> :w<CR>:make <CR>
