@@ -7,6 +7,9 @@ export HISTSIZE=1000000
 export SAVEHIST=1000000
 export CLASSPATH=.:/usr/share/java/junit.jar
 
+# Temporary:
+export PATH=/opt/osm/bin:$PATH
+
 # Vi mode
 bindkey -v
 bindkey '\e[3~' delete-char
