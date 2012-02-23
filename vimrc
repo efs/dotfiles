@@ -69,6 +69,8 @@ hi ExtraWhitespace ctermbg=red
 match ExtraWhitespace /\s\+$/
 
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
+set cursorline
 "========================================
 " Keybindings
 "========================================
