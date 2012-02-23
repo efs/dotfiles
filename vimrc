@@ -23,7 +23,7 @@ set tw=78
 "hi ColorColumn ctermbg=darkgray
 
 " When vimrc is edited, reload it
-autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
+"autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 
 " Writing to a file as su.
 cmap w!! %!sudo tee > /dev/null %
@@ -68,6 +68,7 @@ set fillchars=vert:\
 hi ExtraWhitespace ctermbg=red
 match ExtraWhitespace /\s\+$/
 
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 "========================================
 " Keybindings
 "========================================
