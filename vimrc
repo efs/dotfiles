@@ -68,6 +68,9 @@ set fillchars=vert:\
 hi ExtraWhitespace ctermbg=red
 match ExtraWhitespace /\s\+$/
 
+" Always show the statusline
+set laststatus=2
+
 set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 set cursorline
