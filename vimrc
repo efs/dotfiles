@@ -78,6 +78,8 @@ set cursorline
 
 " Remove trailing whitespace
 map <Leader>w :%s/\s\+$<CR>
+" Toggle spelling
+map <Leader>s :set invspell<CR>
 
 map <F2> :NERDTreeToggle<CR>
 map <F3> :TlistToggle<CR>
