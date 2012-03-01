@@ -51,8 +51,6 @@ set noswapfile
 set undofile
 set undodir=$HOME/.vim/undo
 
-set spell
-
 "Pathogen
 call pathogen#infect()
 call pathogen#helptags()
