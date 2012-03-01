@@ -9,7 +9,7 @@
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
 files="gitconfig  tmux.conf  vim  vimrc  Xresources  xinitrc  Xmodmap  xmonad
-zshrc irssi mplayer rtorrent.rc"
+zshrc mplayer rtorrent.rc"
 
 ##########
 
